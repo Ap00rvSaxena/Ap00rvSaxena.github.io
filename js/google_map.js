@@ -28,7 +28,7 @@
             function loadGoogleMap(){
                 var script = document.createElement('script');
                 script.type = 'text/javascript';
-                script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDK4xja_WLpJ1m_IZn3KetVyupnNlDc1Xk&' + 'callback=initialize';
+                script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyC_xsoNUQgbZmHaeTUiwDlqR8ehIaITZFA&' + 'callback=initialize';
                 document.body.appendChild(script);
             }
         
