@@ -756,7 +756,7 @@ button {
 #contact .cover-img {
   background: url('../images/contact3.jpg') no-repeat;
   min-height: 75vh;
-  width: 800px;
+  width: 795px;
 }
 
 #contact .contact-info {
@@ -867,6 +867,7 @@ footer {
   }
 
   #about .col-md-3,
+  #portfolio .col-md-6,
   #experience .col-md-6,
   #education .col-md-6,
   #contact .col-md-3 {
@@ -878,6 +879,19 @@ footer {
     position: relative;
     min-height: 65vh;
   }
+  
+  #portfolio .portfolio-thumb .portfolio-overlay{
+	  padding-top: 0px;
+  }
+  #portfolio h3{
+	font-size: 1em;
+	padding-bottom: 0px;
+  }
+  #portfolio. section-btn {
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 1px;
+ }
 }
 
 @media only screen and (max-width: 1024px) {
