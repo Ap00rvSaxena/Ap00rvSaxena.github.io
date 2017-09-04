@@ -748,15 +748,14 @@ button {
   min-height: 75vh;
 }
 
-#contact .contact-img {
-  background: url('../images/contact-img.jpg') no-repeat;
-  min-height: 75vh;
+#contact .col-md-3{
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 #contact .cover-img {
-  background: url('../images/contact3.jpg') no-repeat;
+  background: url('../images/contact.jpg') no-repeat;
   min-height: 75vh;
-  width: 795px;
 }
 
 #contact .contact-info {
@@ -768,10 +767,13 @@ button {
   padding-right: 10px;
 }
 
-#google-map {
-    min-height: 75vh;
-	width: 100%;
+#contact .map{
+	position: relative;
+	width: auto;
+	min-height: 75vh;
+	background: bg-yellow;
 }
+
 
 /*---------------------------------------
    Footer section              
@@ -860,8 +862,7 @@ footer {
   #about .container, 
   #experience .container,
   #service .container,
-  #education .container,
-  #contact .container {
+  #education .container{
     padding-right: 15px;
     padding-left: 15px;
   }
@@ -888,7 +889,7 @@ footer {
 	padding-bottom: 0px;
   }
   #portfolio. section-btn {
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: bold;
   letter-spacing: 1px;
  }
@@ -905,7 +906,7 @@ footer {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	#google-map { height: auto; }
+	#contact .map { height: auto; }
 }
 
 @keyframes anim-dash {
