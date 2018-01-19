@@ -23,7 +23,7 @@ html,body {
 -----------------------------------------*/
 
 h1,h2,h3,h4,h5,h6 {
-	color: #ffffff;
+  color: #ffffff;
   font-style: normal;
   font-weight: 300;
 }
@@ -581,6 +581,15 @@ video{
 
 #portfolio p {
   padding-top: 32px;
+}
+
+#portfolio a{
+	color: #c94e50;
+}
+
+#portfolio a:hover, a:active, a:focus {
+  color: #1a1a1a;
+  outline: none;
 }
 
 #portfolio .section-btn {
