@@ -525,6 +525,15 @@ video{
         color: #c94e50;
 		padding-bottom: 5px;
     }
+	
+#portfolio a{
+	color: #c94e50;
+	}
+
+#portfolio a:hover, a:active, a:focus {
+	color: #1a1a1a;
+	outline: none;
+	}
 
 #portfolio h3{
 	padding-bottom: 4px;
@@ -581,15 +590,6 @@ video{
 
 #portfolio p {
   padding-top: 32px;
-}
-
-#portfolio a{
-  color: #c94e50;
-}
-
-#portfolio a:hover, a:active, a:focus {
-  color: #1a1a1a;
-  outline: none;
 }
 
 #portfolio .section-btn {
