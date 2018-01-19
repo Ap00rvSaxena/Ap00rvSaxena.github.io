@@ -584,11 +584,12 @@ video{
 }
 
 #portfolio a{
-	color: #c94e50;
+  color: #c94e50;
 }
 
 #portfolio a:hover, a:active, a:focus {
   color: #1a1a1a;
+  outline: none;
 }
 
 #portfolio .section-btn {
